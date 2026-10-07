@@ -27,3 +27,40 @@
 // console.log("message1");
 // console.log("messagetwo");
 // console.groupEnd("group2");
+
+// let title = "Elzero";
+// let desc = "Elzero Web School";
+
+// let markup = `
+//   <div class="card">
+//     <div class="child">
+//       <h2>${title}</h2>
+//       <p>${desc}</p>
+//     </div>
+//   </div>
+// `;
+// document.write(markup)
+
+// let as = ("abdo")
+// let b = ("hello bb")
+// console.log(` ${as} ${b}`)
+
+// واجب الفيديو ال 17
+// let title = ("elzero")
+// let discription = ("web school")
+// let DateContent = ("25/10")
+
+// let contain = (
+//     `
+//    <div class="card">
+//     <div class="child">
+//       <h1>${title}</h1>
+//       <p>${discription}</p>
+//       <span>${DateContent}</span>
+//     </div>
+//   </div>
+//     `
+// )
+// document.write(`
+//     ${contain.repeat(4)}
+//     `)
