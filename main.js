@@ -7,7 +7,7 @@
 // console.log(typeof true);
 // console.log(typeof undefined);
 // console.log(typeof null);
-// console.log('%chello %cabdo %csaad','color:red ; font-size:40px', 'color:green ; font-size:40px','color:blue ; font-size:40px' )
+// console.log('%chello %cabdo %csaad', 'color:red ; font-size:40px', 'color:green ; font-size:40px', 'color:blue ; font-size:40px')
 
 // firist9 Assinment
 
@@ -64,9 +64,7 @@
 //     ${contain.repeat(4)}
 //     `)
 
-
-
-// تاني دفعه من الواجب 
+// تاني دفعه من الواجب
 // let numberOne = (10)
 // let numberTwo = (20)
 
@@ -91,23 +89,19 @@
 //   10
 // */
 
-
 // console.log(elzero.innerHTML); // object
 // console.log(typeof elzero); // object
 
-
-// console.log("I'm In\n\\\\\nLove \\\\ \"\"\" '''\n++ With 
+// console.log("I'm In\n\\\\\nLove \\\\ \"\"\" '''\n++ With
 // ++\n\\\"\"\"\\\"\"\"\n\"\"JavaScript\"\"");)
-
 
 // let a = 21;
 // let b = 20;
 // var nomone = ("_"+b+""+a+"_")
 // let result = (b+""+a)
 // const help = ("_"+b+""+a+"_")
-// console.log("_"+a+nomone+result+help+b+"_"); 
+// console.log("_"+a+nomone+result+help+b+"_");
 // // _21_2021_2021_2021_20_
-
 
 /*
   Challenge 1
@@ -147,9 +141,6 @@
 // console.log(-d*e++); // 2000
 // console.log(-d+ ++e*++g + --f   ); // 173
 
-
-
-
 // 3 assinment
 // num1
 // Replace ? With Arithmetic Operators
@@ -180,8 +171,8 @@
 
 // Num3
 // let num = "10";
-// let a = true 
-// let b = false 
+// let a = true
+// let b = false
 
 // // Solution One
 // console.log(+num + +num); // 20
@@ -203,7 +194,6 @@
 
 // points -=(true+true+true+true+true)
 // console.log(points); // 8;
-
 
 /*
   Number Challenge 22/26
@@ -230,11 +220,6 @@
 // console.log(((Math.floor(b)/Math.ceil(d))).toFixed(2).toString()) // 66.67 => String
 // console.log(Math.ceil(((Math.floor(b)/Math.ceil(d))).toFixed(2).toString())); // 67 => Number
 
-
-
-
-
-
 // 22-26 assignment
 // ONE
 
@@ -258,13 +243,9 @@
 // TWO
 // console.log(-Number.MIN_SAFE_INTEGER);
 
-
-
 // three
 // console.log((Number.MAX_SAFE_INTEGER).toString().length); // 16
 // console.log(String(Number.MAX_SAFE_INTEGER).length)
-  
-
 
 // four
 
@@ -286,6 +267,185 @@
 // console.log(Math.round(flt)); // 10
 // console.log(+flt.toFixed()); // 10
 
-
 // // seventh
 // console.log(Math.floor(Math.random()*(Number.MAX_SAFE_INTEGER))); // 0 || 1 || 2 || 3 || 4
+
+/*
+  String Challenge
+  All Solutions Must Be In One Chain
+  You Can Use Concatenate
+*/
+//
+
+// to 30 assignments
+
+// one
+// let a = "Elzero";
+// console.log(a[0].toLowerCase()); // e
+// console.log(a.charAt(0).toLowerCase()); // e
+// console.log(a.slice(0,1).toLowerCase()); // e
+// console.log(a.substr(0,1).toLowerCase()); // e
+// console.log(a.substring(0,1).toLowerCase()); // e
+// console.log(a.at(0).toLowerCase()); // e
+// console.log(a.slice(0,1).toLowerCase().repeat(3)); // eee
+
+// two
+// let word = "Elzero";
+// let letterZ = "z";
+// let letterE = "e";
+// let letterO = "O";
+
+// // السطر الأول: التأكد من وجود الحرف Z داخل الكلمة
+// console.log(word.toLowerCase().includes(letterZ.toLowerCase())); // true
+
+// // السطر الثاني: التأكد أن الكلمة تبدأ بالحرف E
+// console.log(word.toLowerCase().startsWith(letterE.toLowerCase())); // true
+
+// // السطر الثالث: التأكد أن الكلمة تنتهي بالحرف o
+// console.log(word.toLowerCase().endsWith(letterO.toLowerCase())); // true
+
+/*
+  If Condition Challenge
+*/
+
+
+
+// let a = 10;
+
+// if (a < 10) {
+//   console.log(10);
+// } else if (a >= 10 && a <= 40) {
+//   console.log("10 To 40");
+// } else if (a > 40) {
+//   console.log("> 40");
+// } else {
+//   console.log("Unknown");
+// };
+//  a < 10 ?
+//  console.log(10):
+//  a  >= 10 && a <= 40?
+//    console.log("10 To 40"):
+//    a > 40 ?
+//   console.log("> 40"):
+//   console.log("Unknown")
+
+
+// Write Previous Condition With Ternary If Syntax
+
+// let st = "Elzero Web School";
+
+// console.log(st.charAt(st.toLowerCase().indexOf("w")).toLowerCase())
+
+// if ((st.length*2).toString() === "34") {
+//   console.log("good");
+// }
+
+// W Position May Change
+// if (st.charAt(st.toLowerCase().indexOf("w")).toLowerCase() === "w") {
+//   console.log("gooooooooooooood");
+// }
+
+// if (st !== "string") {
+//   console.log("Good");
+// }
+
+// if (typeof st ===typeof "number") {
+//   console.log("Good");
+// }
+// console.log()
+// if (st.slice(0 , 6).repeat(2) === "ElzeroElzero") {
+//   console.log("Good");
+// }
+
+/*
+  Switch Challenge
+*/
+
+// let job = "Developer";
+// let salary = 0;
+
+// if (job === "Manager") {
+//   salary = 8000;
+// } else if (job === "IT" || job === "Support") {
+//   salary = 6000;
+// } else if (job === "Developer" || job === "Designer") {
+//   salary = 7000;
+// } else {
+//   salary = 4000;
+// }
+// switch (job){
+
+// default: console.log(4000)
+// break;
+// case "Manager":
+//   console.log(8000)
+//   break;
+// case "IT" :
+// case "Support":
+//   console.log(6000)
+//   break;
+// case "Developer":case
+// "Designer":
+//   console.log(7000)
+//   break;
+// }
+/*
+  If Challenge
+*/
+
+
+
+// switch (holidays) {
+//   case 0:
+//     money = 5000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 1:
+//   case 2:
+//     money = 3000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 3:
+//     money = 2000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 4:
+//     money = 1000;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   case 5:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+//     break;
+//   default:
+//     money = 0;
+//     console.log(`My Money is ${money}`);
+// }
+// let holidays = 0;
+// let money = 0;
+
+// if (holidays === 0) {
+//   money = 5000;
+//   console.log(`My Money is ${money}`);
+// }
+// else if (holidays === (1 || holidays=== 2)) {
+//   money = 3000;
+//   console.log(`My Money is ${money}`);
+// }
+// else if (holidays === 3) {
+//   money = 2000;
+//   console.log(`My Money is ${money}`);
+// }
+// else if (holidays === 4) {
+//   money = 1000;
+//   console.log(`My Money is ${money}`);
+// }
+// else if (holidays === 5) {
+//   money = 0;
+//   console.log(`My Money is ${money}`);
+// }
+// else {
+//   money = 0;
+//   console.log(`My Money is ${money}`);
+// }
+// ASSIGNMENT
