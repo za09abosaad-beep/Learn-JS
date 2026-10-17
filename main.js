@@ -458,7 +458,7 @@
 // console.log(typeof -50 != +"-40"); // true
 // console.log(typeof 10 != -"-40"); // true
 // console.log(+ "10"== 10); // true
-// console.log(Boolean( 20 != false)); // true 
+// console.log(Boolean( 20 != false)); // true
 
 // two
 // let num1 = 10;
@@ -492,7 +492,7 @@
 
 // if (num < 10){
 //   console.log(`00${num}`)
-// } 
+// }
 // else if ( num > 10 && num <100){
 //   console.log(`0${num}`)
 
@@ -502,7 +502,7 @@
 
 // }
 
-// five 
+// five
 // let num1 = 9;
 // let str = "9";
 // let str2 = "20";
@@ -520,7 +520,7 @@
 //   console.log(`${str} Is The Same Type As ${str2} But Not The Same Value}`)
 // }
 
-// six 
+// six
 // let num1 = 10;
 // let num2 = 30;
 // let num3 = "30";
@@ -534,7 +534,7 @@
 // else if (num3 !== num1 &&typeof num2 != typeof num3  ){
 // console.log (`${num3} Value And Type Is Not The Same As ${num1} And Type Is Not The Same As ${num2}`)
 // }
-// seven 
+// seven
 // Edit What You Want Here
 
 // let num1 = 11;
@@ -789,46 +789,73 @@
 
 // one
 
-let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
-let num = 3;
+// let myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+// let num = 3;
 
-// Method 1
-console.log("Your Code Here"); // ["Ahmed", "Elham", "Osama"];
+// myFriends.pop()
+// console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
 
-// Method 2
-console.log("Your Code Here"); // ["Ahmed", "Elham", "Osama"];
+// myFriends = ["Ahmed", "Elham", "Osama", "Gamal"];
+// myFriends.splice(num)
+// console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
 
 
-// // two 
+
+
+// // two
 // let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
 
-// // Write Your Code Here
+// friends.shift()
+// friends.pop()
 
 // console.log(friends); // ["Eman", "Osama"]
+
+
+
 // // three
 // let arrOne = ["C", "D", "X"];
 // let arrTwo = ["A", "B", "Z"];
 // let finalArr = [];
 
-// // Write One Single Line Of Code
+// finalArr = arrOne.concat(arrTwo).sort().reverse()
 
 // console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
-// // four 
+
+
+
+// // four
 // let website = "Go";
 // let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
 
-// console.log("Your Code Here"); // ZERO
-// // five
+// console.log(words[website.length][0].slice(website.length).toUpperCase()); // ZERO
+
+
+
+
+
+// five
 
 // let needle = "JS";
 // let haystack = ["PHP", "JS", "Python"];
 
-// // Write 3 Solutions
-// // six 
+
+// console.log(haystack.includes("JS"))
+// console.log(haystack.includes(needle))
+
+// if ((haystack.includes(needle)) === true){
+//   console.log("found")
+// }
+
+
+
+
+
+// // six
 // let arr1 = ["A", "C", "X"];
 // let arr2 = ["D", "E", "F", "Y"];
 // let allArrs = [];
+// let num = arr1.length
+// allArrs = arr1.concat(arr2).sort()
+// allArrs = allArrs.slice(++num)
 
-// // Your Code Here
-
-// console.log(allArrs); // fxy
+// console.log(allArrs.join("").toLowerCase()); // fxy
