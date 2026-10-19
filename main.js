@@ -859,3 +859,20 @@
 // allArrs = allArrs.slice(++num)
 
 // console.log(allArrs.join("").toLowerCase()); // fxy
+
+// let products = [ "sdgreop","eswrkjeri","wlj9i"]
+
+// let index =  0
+
+// while (true  ){
+//   console.log(index);
+//   index++
+//   if (index === 80001){
+//     break
+//   }
+// }
+
+// assignments 48-56
+
+// one 
+
