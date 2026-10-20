@@ -944,34 +944,47 @@
 
 // // 7
 
-let start = 0;
-let mix = [1, 2, 3, "A", "B", "C", 4];
-let onlynumbers = []
-mix.sort()
+// let start = 0;
+// let mix = [1, 2, 3, "A", "B", "C", 4];
+// let onlynumbers = []
+// mix.sort()
 
-for (let i= start ;i<mix.length;i++){
+// for (let i= start ;i<mix.length;i++){
 
-if (typeof mix[i] === "string"){
- continue
-}
-else if(mix[i] === 1){
-  continue
-}
-else{
-  console.log(mix[i])
-}
-}
+// if (typeof mix[i] === "string"){
+//  continue
+// }
+// else if(mix[i] === 1){
+//   continue
+// }
+// else{
+//   console.log(mix[i])
+// }
+// }
 
-// 2
-// 3
-// 4
+
 
 // الثاامن
-// let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
-// let index = 0;
-// let counter = 0;
+let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+let i = 0;
+let counter = 0;
 
-// // Output
+
+while(i < friends.length)
+{
+ 
+  // if(typeof friends[i] === "number"){
+  //   continue
+  // }
+  //  else if(friends[i] === friends[0]){
+  //   continue
+  // }
+  console.log(friends[i])
+  i++
+
+
+}
+// Output
 // "1 => Sayed"
 // "2 => Mahmoud"
 
