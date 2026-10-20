@@ -308,8 +308,6 @@
   If Condition Challenge
 */
 
-
-
 // let a = 10;
 
 // if (a < 10) {
@@ -328,7 +326,6 @@
 //    a > 40 ?
 //   console.log("> 40"):
 //   console.log("Unknown")
-
 
 // Write Previous Condition With Ternary If Syntax
 
@@ -392,8 +389,6 @@
 /*
   If Challenge
 */
-
-
 
 // switch (holidays) {
 //   case 0:
@@ -645,12 +640,10 @@
 // break;
 // }
 
-
 // let myFriends = ["Ahmed", "Mohamed", "Sayed", "Alaa"];
 
 // myFriends.length = 3;
 // console.log(myFriends);
-
 
 // let myFriends = ["Ahmed", "Mohamed", "Sayed", "Alaa"];
 
@@ -675,7 +668,6 @@
 // console.log(myFriends);
 
 // console.log(`Last Name Is ${last}`);
-
 
 /*
   Arrays Methods [Search]
@@ -714,8 +706,6 @@
 // console.log(myFriends);
 // console.log(myFriends.reverse());
 
-
-
 /*
   Arrays Methods [Slicing]
   - slice(Start [Opt], End [Opt] Not Including End)
@@ -741,7 +731,6 @@
 // myFriends.splice(1, 2, "Sameer", "Samara");
 
 // console.log(myFriends);
-
 
 /*
   Arrays Methods [Joining]
@@ -783,8 +772,6 @@
 // console.log(--zero)
 // console.log(my[--zero]+my[++zero].toUpperCase()); // "rO"
 
-
-
 // assignment
 
 // one
@@ -799,9 +786,6 @@
 // myFriends.splice(num)
 // console.log(myFriends); // ["Ahmed", "Elham", "Osama"];
 
-
-
-
 // // two
 // let friends = ["Ahmed", "Eman", "Osama", "Gamal"];
 
@@ -809,8 +793,6 @@
 // friends.pop()
 
 // console.log(friends); // ["Eman", "Osama"]
-
-
 
 // // three
 // let arrOne = ["C", "D", "X"];
@@ -821,23 +803,16 @@
 
 // console.log(finalArr); // ["Z", "X", "D", "C", "B", "A"]
 
-
-
 // // four
 // let website = "Go";
 // let words = [`${website}ogle`, "Facebook", ["Elzero", "Web", "School"]];
 
 // console.log(words[website.length][0].slice(website.length).toUpperCase()); // ZERO
 
-
-
-
-
 // five
 
 // let needle = "JS";
 // let haystack = ["PHP", "JS", "Python"];
-
 
 // console.log(haystack.includes("JS"))
 // console.log(haystack.includes(needle))
@@ -845,10 +820,6 @@
 // if ((haystack.includes(needle)) === true){
 //   console.log("found")
 // }
-
-
-
-
 
 // // six
 // let arr1 = ["A", "C", "X"];
@@ -874,11 +845,10 @@
 
 // assignments 48-56
 
-// one 
+// one
 // let start = 10;
 // let end = 100;
 // let exclude = 40;
-
 
 // // Write Your Code Here
 // for (let i = start; i <= end; i += start) {
@@ -888,15 +858,12 @@
 //   console.log(i);
 // }
 
-
 // 2
 // let start = 10;
 // let end = 0;
 // let stop = 3;
 
-
 // for (let i=start ; i >= stop ; i--){
-
 
 // if (i < start) {
 //     console.log(`${end}${i}`);
@@ -904,9 +871,7 @@
 //     console.log(i);
 //   }
 
-
 // }
-
 
 // 3
 // let start = 1;
@@ -917,7 +882,6 @@
 //   console.log(`-- ${breaker}`)
 //   console.log(`-- ${end-breaker}`)
 // }
-
 
 // 4
 
@@ -944,10 +908,9 @@
 // let friends = ["Ahmed", "Sayed", "Eman", "Mahmoud", "Ameer", "Osama", "Sameh"];
 // let letter = "a";
 
-
 // for (let i = 0;i<=friends.length-1;i++){
 //   if(friends[i][0] === letter.toUpperCase()){continue}
-  
+
 //   console.log(`${i} => ${friends[i]}`)
 // }
 // // Output
@@ -957,41 +920,47 @@
 // "4 => Osama"
 // "5 => Sameh"
 
-
-
-
-
-
-
-
 // 6
-let start = 0;
-let swappedName = "elZerO";
-let collection = []
-for (let i=start; i<swappedName.length;i++){
-  
-  if(swappedName[i] === swappedName[i].toLowerCase()){
-console.log(swappedName[i].toUpperCase())
-  }
-  else(
-    console.log(swappedName[i].toLowerCase())
-  )
-  
-}
+// let start = 0;
+// let swappedName = "elZerO";
+// let collection = ''
+
+// for (let i = start; i < swappedName.length; i++)
+
+//   {
+// if (swappedName[i] === swappedName[i].toLowerCase())
+// {collection += swappedName[i].toUpperCase()}
+
+// else{
+//   collection += swappedName[i].toLowerCase()
+// }
+
+// }
+
+// console.log(collection)
 
 // // Output
 // "ELzERo"
 
-
-
-
-
 // // 7
 
-// let start = 0;
-// let mix = [1, 2, 3, "A", "B", "C", 4];
+let start = 0;
+let mix = [1, 2, 3, "A", "B", "C", 4];
+let onlynumbers = []
+mix.sort()
+for (let i= start ;i<mix.length;i++){
 
-// // Output
+if (typeof mix[i] === "string"){
+ continue
+}
+else if(mix[i] === 1){
+  continue
+}
+else{
+  console.log(mix[i])
+}
+}
+
 // 2
 // 3
 // 4
@@ -1004,9 +973,6 @@ console.log(swappedName[i].toUpperCase())
 // // Output
 // "1 => Sayed"
 // "2 => Mahmoud"
-
-
-
 
 /*
   Loop Challenge
