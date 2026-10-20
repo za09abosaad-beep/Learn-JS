@@ -967,6 +967,17 @@
 // 6
 let start = 0;
 let swappedName = "elZerO";
+let collection = []
+for (let i=start; i<swappedName.length;i++){
+  
+  if(swappedName[i] === swappedName[i].toLowerCase()){
+console.log(swappedName[i].toUpperCase())
+  }
+  else(
+    console.log(swappedName[i].toLowerCase())
+  )
+  
+}
 
 // // Output
 // "ELzERo"
