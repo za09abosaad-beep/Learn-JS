@@ -965,25 +965,40 @@
 
 
 // الثاامن
-let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
-let i = 0;
-let counter = 0;
+// let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+// let i = 0;
+// let counter = 0;
 
 
-while(i < friends.length)
-{
- 
-  // if(typeof friends[i] === "number"){
-  //   continue
-  // }
-  //  else if(friends[i] === friends[0]){
-  //   continue
-  // }
-  console.log(friends[i])
-  i++
 
 
-}
+
+// while(i < friends.length)
+//   {
+//     if(typeof friends[i] !== "number" ){
+//      friends[i]
+//     }
+//     if(friends[i][0] === "A" ){
+//      continue
+//     }
+//     console.log(friends[i][0])
+//     i++
+
+
+// }
+// let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
+// let i = 0;
+// let counter = 1;
+
+// while (i < friends.length) {
+//   // 1. فحص أن العنصر ليس رقماً وأنه لا يبدأ بحرف A
+//   if (typeof friends[i] !== "number" && !friends[i].startsWith("A")) {
+//     console.log(`${counter} => ${friends[i]}`);
+//     counter++; // يزيد العداد فقط عند الطباعة الناجحة
+//   }
+
+//   i++; // زيادة العداد الرئيسي في كل دورة بانتظام لتجنب الـ Infinite Loop
+// }
 // Output
 // "1 => Sayed"
 // "2 => Mahmoud"
@@ -995,4 +1010,27 @@ while(i < friends.length)
 // let myAdmins = ["Ahmed", "Osama", "Sayed", "Stop", "Samera"];
 // let myEmployees = ["Amgad", "Samah", "Ameer", "Omar", "Othman", "Amany", "Samia", "Anwar"];
 
-// document.write(`<div>We Have X Admins</div>`);
+// document.write(`<div>We Have ${myAdmins.indexOf("Stop")} Admins</div>`);
+
+// let counterH = 1
+// let i = 0
+
+// for (; i < myAdmins.length; i++) {
+//   if (myAdmins[i] === "Stop") { break }
+//   document.write(`<div>`)
+//   document.write(`<h1>The Admin of the team is ${counterH} ${myAdmins[i]}</h1> `)
+//   let counter = 1
+//   for (let j = 0; j < myEmployees.length; j++) {
+//     if (myAdmins[i][0] === myEmployees[j][0]) {
+
+//       document.write(`<p>-${counter} ${myEmployees[j]}</p>`)
+//       counter++
+//     }
+//   }
+//   document.write(`<br> <hr>`)
+//   document.write(`</div>`)
+//   counterH++
+// }
+
+
+
