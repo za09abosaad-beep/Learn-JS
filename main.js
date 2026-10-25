@@ -1145,6 +1145,15 @@
 
 
 function createSelectBox(startYear, endYear) {
-  // Your Code Here
+document.write("<select>")
+
+ for (let i = startYear ; i < endYear; i++){
+ document.write("<option>")
+document.write(`${i}`)
+ document.write("</option>")
+ }
+ document.write("</select>")
+ return createSelectBox;
 }
 createSelectBox(2000, 2021);
+
