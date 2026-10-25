@@ -1034,3 +1034,117 @@
 
 
 
+
+
+// تكليفات JavaScript Bootcamp من الدرس 057 إلى 063
+
+
+// function sayHello(theName, theGender) {
+
+//   if (theGender === "Male"){
+//     console.log(`Hello Mr ${theName}`)
+//   }
+//   else if (theGender === "Female"){
+//     console.log(`Hello Miss ${theName}`)
+//   }
+// else(
+//   console.log(`Hello ${theName}`)
+// )
+// }
+
+// // Needed Output
+// sayHello("Osama", "Male"); // "Hello Mr Osama"
+// sayHello("Eman", "Female"); // "Hello Miss Eman"
+// sayHello("Sameh"); // "Hello Sameh"
+
+
+// function calculate(firstNum, secondNum , operation) {
+//   if(secondNum === undefined){
+//   console.log("Second Number Not Found")
+//    }
+
+//   if(operation === "add"){
+// console.log(firstNum + secondNum)
+//   }
+
+//   else if(operation === undefined){
+//     console.log(firstNum + secondNum)
+//   }
+//  else if(operation === "subtract"){
+// console.log(firstNum - secondNum)
+//   }
+//  else if(operation === 'multiply'){
+// console.log(firstNum * secondNum)
+
+//   }
+  
+// }
+
+// // Needed Output
+// calculate(20); // Second Number Not Found
+// calculate(20, 30); // 50
+// calculate(20, 30, 'add'); // 50
+// calculate(20, 30, 'subtract'); // -10
+// calculate(20, 30, 'multiply'); // 600
+
+
+// function ageInTime(theAge) {
+// if (theAge < 10 || theAge > 100){
+//   console.log("Age Out Of Range")
+// }
+// else{
+//   console.log(theAge);
+//   console.log(theAge * 12 )
+//   console.log(theAge * 12 * 4)
+//   console.log(theAge * 12 * 4 * 7)
+//   console.log(theAge * 12 * 4 * 7 * 24)
+//   console.log(theAge * 12 * 4 * 7 * 24 * 60)
+//   console.log(theAge * 12 * 4 * 7 * 24 * 60 *60)
+  
+// }
+// }
+
+// // Needed Output
+// ageInTime(110); // Age Out Of Range
+// ageInTime(38); // Months Example => 456 Months
+
+
+// function checkStatus(a, b, c) {
+//   let name, age, status;
+
+//   // 1. فحص المتغير a وتحديد هويته بناء على نوعه
+//   if (typeof a === "string") name = a;
+//   else if (typeof a === "number") age = a;
+//   else if (typeof a === "boolean") status = a;
+
+//   // 2. فحص المتغير b وتحديد هويته بناء على نوعه
+//   if (typeof b === "string") name = b;
+//   else if (typeof b === "number") age = b;
+//   else if (typeof b === "boolean") status = b;
+
+//   // 3. فحص المتغير c وتحديد هويته بناء على نوعه
+//   if (typeof c === "string") name = c;
+//   else if (typeof c === "number") age = c;
+//   else if (typeof c === "boolean") status = c;
+
+//   // 4. تجهيز رسالة الحالة
+//   let statusText = status ? "You Are Available For Hire" : "You Are Not Available For Hire";
+
+//   // 5. الطباعة بالشكل المطلوب
+//   console.log(`Hello ${name}, Your Age Is ${age}, ${statusText}`);
+// }
+
+// // Needed Output
+// checkStatus("Osama", 38, true);   // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(38, "Osama", true);   // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(true, 38, "Osama");   // "Hello Osama, Your Age Is 38, You Are Available For Hire"
+// checkStatus(false, "Osama", 38);  // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
+
+
+
+
+
+function createSelectBox(startYear, endYear) {
+  // Your Code Here
+}
+createSelectBox(2000, 2021);
