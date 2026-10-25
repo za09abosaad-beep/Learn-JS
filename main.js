@@ -962,16 +962,10 @@
 // }
 // }
 
-
-
 // الثاامن
 // let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
 // let i = 0;
 // let counter = 0;
-
-
-
-
 
 // while(i < friends.length)
 //   {
@@ -983,7 +977,6 @@
 //     }
 //     console.log(friends[i][0])
 //     i++
-
 
 // }
 // let friends = ["Ahmed", "Sayed", "Ali", 1, 2, "Mahmoud", "Amany"];
@@ -1032,12 +1025,7 @@
 //   counterH++
 // }
 
-
-
-
-
 // تكليفات JavaScript Bootcamp من الدرس 057 إلى 063
-
 
 // function sayHello(theName, theGender) {
 
@@ -1057,37 +1045,6 @@
 // sayHello("Eman", "Female"); // "Hello Miss Eman"
 // sayHello("Sameh"); // "Hello Sameh"
 
-
-// function calculate(firstNum, secondNum , operation) {
-//   if(secondNum === undefined){
-//   console.log("Second Number Not Found")
-//    }
-
-//   if(operation === "add"){
-// console.log(firstNum + secondNum)
-//   }
-
-//   else if(operation === undefined){
-//     console.log(firstNum + secondNum)
-//   }
-//  else if(operation === "subtract"){
-// console.log(firstNum - secondNum)
-//   }
-//  else if(operation === 'multiply'){
-// console.log(firstNum * secondNum)
-
-//   }
-  
-// }
-
-// // Needed Output
-// calculate(20); // Second Number Not Found
-// calculate(20, 30); // 50
-// calculate(20, 30, 'add'); // 50
-// calculate(20, 30, 'subtract'); // -10
-// calculate(20, 30, 'multiply'); // 600
-
-
 // function ageInTime(theAge) {
 // if (theAge < 10 || theAge > 100){
 //   console.log("Age Out Of Range")
@@ -1100,14 +1057,13 @@
 //   console.log(theAge * 12 * 4 * 7 * 24)
 //   console.log(theAge * 12 * 4 * 7 * 24 * 60)
 //   console.log(theAge * 12 * 4 * 7 * 24 * 60 *60)
-  
+
 // }
 // }
 
 // // Needed Output
 // ageInTime(110); // Age Out Of Range
 // ageInTime(38); // Months Example => 456 Months
-
 
 // function checkStatus(a, b, c) {
 //   let name, age, status;
@@ -1140,20 +1096,69 @@
 // checkStatus(true, 38, "Osama");   // "Hello Osama, Your Age Is 38, You Are Available For Hire"
 // checkStatus(false, "Osama", 38);  // "Hello Osama, Your Age Is 38, You Are Not Available For Hire"
 
+// function createSelectBox(startYear, endYear) {
+// document.write("<select>")
 
+//  for (let i = startYear ; i <= endYear; i++){
+//  document.write("<option>")
+// document.write(`${i}`)
+//  document.write("</option>")
+//  }
+//  document.write("</select>")
 
+// }
+// createSelectBox(2000, 2021);
 
+// function calculate(firstNum, secondNum , operation) {
+//   if(secondNum === undefined){
+//     console.log("Second Number Not Found")
+//   }
 
-function createSelectBox(startYear, endYear) {
-document.write("<select>")
+//   if(operation === "add"){
+// console.log(firstNum + secondNum)
+//   }
 
- for (let i = startYear ; i < endYear; i++){
- document.write("<option>")
-document.write(`${i}`)
- document.write("</option>")
- }
- document.write("</select>")
- return createSelectBox;
+//   else if(operation === undefined){
+//     console.log(firstNum + secondNum)
+//   }
+//   else if(operation === "subtract"){
+//     console.log(firstNum - secondNum)
+//   }
+//   else if(operation === 'multiply'){
+//     console.log(firstNum * secondNum)
+
+//   }
+
+// }
+// // Needed Output
+// calculate(20); // Second Number Not Found
+// calculate(20, 30); // 50
+// calculate(20, 30, 'add'); // 50
+// calculate(20, 30, 'subtract'); // -10
+// calculate(20, 30, 'multiply'); // 600
+
+let i = 0;
+function multiply(...numbers) {
+  let result = 1;
+  for (let i = 0; i < numbers.length; i++)
+     {
+       if (typeof numbers[i] !== "number") {
+         continue;
+       }
+     numbers[i] = Math.floor(numbers[i]);
+      result *= numbers[i];
+    }
+    console.log(result)
 }
-createSelectBox(2000, 2021);
 
+multiply(10, 20); // 200
+multiply("A",10, 30); // 300
+multiply(100.5, 10,"B"); // 1000
+
+// let arrr= [10 ,20 ,30,40]
+// let result =1
+// let starter =0
+// for (let i=starter;i<arrr.length;i++){
+// result *= arrr[i]
+// }
+// console.log(10*20*30*40)
