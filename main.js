@@ -1264,7 +1264,7 @@
 // return `String [${name.join("], [" )}] => Done !`
 // };
 
-// let names =  (...name) => 
+// let names =  (...name) =>
 //  `String [${name.join("], [" )}] => Done !`
 // ;
 
@@ -1289,3 +1289,15 @@
 //   return one + two + Number(nums);
 // }
 // console.log(calc(10, 20,50)); // 80
+// let mix = "A13BS2ZX";
+
+// let mixcontent = mix
+//   .split("")
+//   .filter(function (ele) {
+//     return !isNaN(parseInt(ele));
+//   }).map(function(ele){
+//     return ele * ele
+//   })
+//   .join("");
+//  console.log(mixcontent)
+
