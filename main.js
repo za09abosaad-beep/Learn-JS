@@ -1301,3 +1301,92 @@
 //   .join("");
 //  console.log(mixcontent)
 
+// تكليفات JavaScript Bootcamp من الدرس 071 إلى 078
+
+// done
+
+// let mix = [1, 2, 3, "E", 4, "l", "z", "e", "r", 5, "o"];
+
+// let hooloo = mix.map(
+// function(ele){
+//  return typeof ele === "string" ? ele :'';
+// }
+// ).reduce(function(ele , acc){
+// return `${ele}${acc}`
+// })
+// // .join("")
+// console.log(hooloo)
+
+// Elzero
+
+// noooo
+// // 2
+// let myString = "EElllzzzzzzzeroo";
+
+// let newArray = [...myString].filter((ele, index, array) => {
+//   return array.indexOf(ele) === index;
+// });
+
+// console.log(newArray.join(""));
+// // Elzero
+
+// 3/5
+// 3
+// let myArray = ["E", "l", "z", ["e", "r"], "o"];
+
+// let solve = myArray.reduce(function(acc, arrr) {
+//   return acc.concat(arrr);
+// }, []).join("");
+
+// console.log(solve); // Elzero
+
+// Elzero
+
+// 4 100%
+
+// let numsAndStrings = [1, 10, -10, -20, 5, "A", 3, "B", "C"];
+
+// let ner = numsAndStrings.filter(function (ele) {
+//   return !isNaN(ele);
+// }).map(function(mor){
+// return -mor
+// })
+
+// console.log(ner);
+
+// [-1, -10, 10, 20, -5, -3]
+
+
+// 5 100%
+// let nums = [2, 12, 11, 5, 10, 1, 99];
+
+// let finl =  nums.reduce(function(acc , curr){
+// return curr % 2 === 0 ? curr * acc: curr + acc
+// }, 1) 
+//  console.log(finl)
+// 500
+
+/*
+  Higher Order Functions Challenges
+
+  You Can Use
+  - ,
+  - _
+  - Space
+  - True => 1 => One Time Only In The Code
+
+  You Cannot Use
+  - Numbers
+  - Letters
+
+  - You Must Use [Filter + Map + Reduce + Your Knowledge]
+  - Order Is Not Important
+  - All In One Chain
+
+*/
+
+let myString = "1,2,3,EE,l,z,e,r,o,_,W,e,b,_,S,c,h,o,o,l,2,0,Z";
+let starter = true 
+let solution = '?????';
+
+console.log(solution); // Elzero Web School
