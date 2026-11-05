@@ -1478,8 +1478,8 @@ let twoNums = {
   f: 6,
 };
 
-// Create Your Object Here in One Line
 
+let finalObject = Object.assign({},threeNums,twoNums,{a})
 console.log(finalObject);
 
 /*
