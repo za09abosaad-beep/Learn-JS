@@ -1465,22 +1465,22 @@
 
 // 3
 
-let a = 1;
+// let a = 1;
 
-let threeNums = {
-  b: 2,
-  c: 3,
-  d: 4,
-};
+// let threeNums = {
+//   b: 2,
+//   c: 3,
+//   d: 4,
+// };
 
-let twoNums = {
-  e: 5,
-  f: 6,
-};
+// let twoNums = {
+//   e: 5,
+//   f: 6,
+// };
 
 
-let finalObject = Object.assign({},threeNums,twoNums,{a})
-console.log(finalObject);
+// let finalObject = Object.assign({},threeNums,twoNums,{a})
+// console.log(finalObject);
 
 /*
   a: 1
@@ -1492,52 +1492,51 @@ console.log(finalObject);
 */
 
 // 4
-// // The Object To Work With
-// let myFavGames = {
-//   "Trinity Universe": {
-//     publisher: "NIS America",
-//     price: 40,
-//   },
-//   "Titan Quest": {
-//     publisher: "THQ",
-//     bestThree: {
-//       one: "Immortal Throne",
-//       two: "Ragnarök",
-//       three: "Atlantis",
-//     },
-//     price: 50,
-//   },
-//   YS: {
-//     publisher: "Falcom",
-//     bestThree: {
-//       one: "Oath in Felghana",
-//       two: "Ark Of Napishtim",
-//       three: "origin",
-//     },
-//     price: 40,
-//   },
-// };
+// The Object To Work With
+let myFavGames = {
+  "Trinity Universe": {
+    publisher: "NIS America",
+    price: 40,
+  },
+  "Titan Quest": {
+    publisher: "THQ",
+    bestThree: {
+      one: "Immortal Throne",
+      two: "Ragnarök",
+      three: "Atlantis",
+    },
+    price: 50,
+  },
+  YS: {
+    publisher: "Falcom",
+    bestThree: {
+      one: "Oath in Felghana",
+      two: "Ark Of Napishtim",
+      three: "origin",
+    },
+    price: 40,
+  },
+};
 
-// // Code One => How To Get Object Length ?
-// let objectLength = "???????";
+// Code One => How To Get Object Length ?
+let objectLength = Object.keys(myFavGames).length;
 
-// for (let i = 0; i < objectLength; i++) {
-//   console.log(`The Game Name Is ???????`);
-//   console.log(`The Publisher Is ???????`);
-//   console.log(`The Price Is ???????`);
+for (let i = 0; i < objectLength; i++) {
+  console.log(`The Game Name Is ???????`);
+  console.log(`The Publisher Is ???????`);
+  console.log(`The Price Is ???????`);
 
-//   // Check If Nested Object Has Property (bestThree)
-//   if (???????) {
-//     console.log("- Game Has Releases");
-//     console.log(`First => ???????`);
-//     console.log(`Second => ???????`);
-//     console.log(`Third => ???????`);
-//   }
-//   console.log("#".repeat(20));
-// }
+  // Check If Nested Object Has Property (bestThree)
+  if (lx) {
+    console.log("- Game Has Releases");
+    console.log(`First => ???????`);
+    console.log(`Second => ???????`);
+    console.log(`Third => ???????`);
+  }
+  console.log("#".repeat(20));
+}
 
-// // Ouput
-
+// Ouput
 // "The Game Name Is Trinity Universe"
 // "The Publisher Is NIS America"
 // "The Price Is 40"
