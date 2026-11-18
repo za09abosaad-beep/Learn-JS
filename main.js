@@ -1561,7 +1561,142 @@ Ouput
 "Third => origin"
 "####################"
 */
+// element.hasAttribute("class"); 
+// // هل الـ attribute موجود؟
+
+// element.getAttribute("class");
+// // ما قيمة الـ attribute؟
+
+// element.getAttributeNode("class").specified;
+// // هل الـ attribute تم تحديده صراحةً？
+
+// vid 1
+// let myIdElement = document.getElementById("my-div");
+// let tag = document.getElementsByTagName("p")[0];
+// let classname  = document.getElementsByClassName("my-span")[0];
+// let myquery = document.querySelector(".my-span") 
+
+// let allmyquery = document.querySelectorAll(".my-span")[0]
+
+// // console.log(myIdElement);
+// // console.log(tag); 
+// // console.log(classname);
+// // console.log(myquery);
+// console.log(allmyquery);
+
+// vid 2
+// let image =document.getElementById("image")
+
+
+// let mylink = document.getElementById("my")
+
+// console.log(mylink.getAttribute("href"))
+
+// mylink.setAttribute("href","https://www.google.com")
+
+// appppend 
+
+// let myelemnt = document.createElement("div")
+// let myatrr = document.createAttribute("class")
+// let myText = document.createTextNode("Product zerooooooo");
+// let mycomment = document.createComment("This is my comment")
+// myelemnt.setAttributeNode(myatrr)
+// myelemnt.setAttribute("data-test", "Testing");
+// myelemnt.appendChild(mycomment)
+// myelemnt.appendChild(myText)
+// document.body.appendChild(myelemnt)
+
+// let mydiv= document.createElement("div")
+// let myheader= document.createElement("h2")
+// let mypara= document.createElement("p")
+// let myText = document.createTextNode("Product title");
+// let mytext2 = document.createTextNode("Product description");
+
+// let comment1= document.createComment("commmmm1")
+// let comment2= document.createComment("commmmm2")
+
+
+// myheader.appendChild(myText)
+// mypara.appendChild(mytext2)
+// mydiv.appendChild(comment1)
+// mydiv.appendChild(myheader)
+// mydiv.appendChild(comment2)
+// mydiv.appendChild(mypara)
+//  mydiv.setAttribute("class", "product")
+
+
+//  console.log(mydiv)
+
+// تكليفات الدروس من [ 86 ] إلى [ 101 ]
+// assin 1
+// console.log(document.getElementById("elzero"))
+// console.log(document.getElementsByClassName("element"))
+// console.log(document.getElementsByTagName("div"))
+// console.log(document.querySelector(".element"))
+// console.log(document.querySelectorAll(".element"))
+// console.log(document.querySelectorAll(".element")[0])
 
 
 
+
+
+// // 1
+// document.getElementById("elzero");
+
+// // 2
+// document.getElementsByClassName("element")[0];
+
+// // 3
+// document.getElementsByTagName("div")[0];
+
+// // 4
+// document.getElementsByName("js")[0];
+
+// // 5
+// document.querySelector("#elzero");
+
+// // 6
+// document.querySelector(".element");
+
+// // 7
+// document.querySelector("div");
+
+// // 8
+// document.querySelector('[name="js"]');
+
+// // 9
+// document.querySelectorAll("#elzero")[0];
+
+// // 10
+// document.querySelectorAll(".element")[0];
+
+// // 11
+// document.querySelectorAll("div")[0];
+
+// // 12
+// document.querySelectorAll('[name="js"]')[0];
+
+// // 13
+// document.body.children[0];
+
+// // 14
+// document.body.firstElementChild;
+
+// // 15
+// document.body.childNodes[1];
+
+// 2
+
+// let starter =0
+// imges.setAttribute('src' , "https://elzero.org/wp-content/themes/elzero/imgs/logo.png")
+// imges.setAttribute('alt' , "Elzero Logo")
+
+// for (let i =starter ;i<document.body.children.length;i++){
+//   let imges = document.body.children[i].children[0]
+// imges.setAttribute('src' , "https://elzero.org/wp-content/themes/elzero/imgs/logo.png")
+// imges.setAttribute('alt' , "Elzero Logo")
+// console.log(document.body.children[i].children[0])
+// }
+
+// 3
 
