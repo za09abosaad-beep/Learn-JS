@@ -1700,3 +1700,36 @@ Ouput
 
 // 3
 
+// onfocus
+// let myinput = document.querySelector('[name="dollar"]')
+// let mydiv = document.querySelector(".result")
+// myinput.value.toFixed(2)
+
+// myinput.oninput = function() {
+// return mydiv.innerHTML= `{${myinput.value}} USD Dollar = ${myinput.value * 15.6} Egyptian Pound}`
+// };
+
+// enhanced 
+// let myinput = document.querySelector('[name="dollar"]');
+// let mydiv = document.querySelector(".result");
+
+// myinput.oninput = function () {
+//   let dollar = Number(myinput.value);
+//   let egyptianPound = dollar * 15.6;
+
+//   if (myinput.value === "") {
+//     mydiv.textContent = `{0} USD Dollar = {0} Egyptian Pound`;
+//   } else {
+//     mydiv.textContent = `${dollar} USD Dollar = ${Number(egyptianPound.toFixed(2))} Egyptian Pound`;
+//   }
+// };
+
+
+
+// 4
+
+
+
+// Output
+// <div class="one" title="one">One</div>
+// <div class="two" title="two">Two 2</div>
